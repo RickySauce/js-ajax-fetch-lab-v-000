@@ -14,7 +14,7 @@ function showResults(json) {
 }
 
 function showForkedRepo(repo) {
-  $('results')
+  $('#results')
 }
 
 function forkRepo() {
