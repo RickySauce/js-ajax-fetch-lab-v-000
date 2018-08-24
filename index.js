@@ -14,7 +14,7 @@ function showResults(json) {
 }
 
 function showForkedRepo(repo) {
-  
+  document.getElementById('results')
 }
 
 function forkRepo() {
