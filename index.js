@@ -13,6 +13,10 @@ function createIssue() {
 function showResults(json) {
 }
 
+function showForkedRepo(repo) {
+  
+}
+
 function forkRepo() {
   const repo = 'learn-co-curriculum/javascript-fetch-lab'
   fetch('api.github.com/repos/' + repo,{
@@ -20,7 +24,7 @@ function forkRepo() {
     headers: {
       Authorization: `token ${token}`
     }
-  }).then(response => { response.json()})
+  }).then(response => response.json()).then(repo => )
 }
 
 function getToken() {
