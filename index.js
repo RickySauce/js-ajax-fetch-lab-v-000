@@ -19,7 +19,6 @@ function showForkedRepo(repo) {
 
 function forkRepo() {
   const repo = 'learn-co-curriculum/javascript-fetch-lab'
-  console.log(repo)
   fetch('api.github.com/repos/' + repo,{
     method: 'post',
     headers: {
